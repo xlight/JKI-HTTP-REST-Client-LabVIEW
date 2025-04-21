@@ -30,23 +30,23 @@ To use HTTP REST Client, you need to drop the corresponding HTTP REST Client
 VIs to the block diagrams. The HTTP REST Client VIs are located under the JKI Tools functions
 palette menu.
 
-![Functions palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette.png "Functions palette")
+![Functions palette](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/rest-palette.png "Functions palette")
 
 ### Basic Workflow
 The toolkit provides a VI for connecting LabVIEW applications with RESTful web services. The basic workflow is presented in the image below.
 
-![Basic workflow](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/open-get-close.png "Basic workflow")
+![Basic workflow](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/open-get-close.png "Basic workflow")
 
 ## API Reference
 
 ### Main Palette
 
-![REST Client palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette-open.png "REST Client palette")
+![REST Client palette](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/rest-palette-open.png "REST Client palette")
 
 #### Create REST Client
 Create REST Client creates an instance of the client.
 
-![Create REST Client](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/create-rest-client.png "Create REST Client")
+![Create REST Client](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/create-rest-client.png "Create REST Client")
 
 The VI provides multiple arguments for defining how to create the JKI REST Client instance.
 
@@ -65,7 +65,7 @@ The VI provides multiple arguments for defining how to create the JKI REST Clien
 #### HTTP HEAD
 Performs a HTTP HEAD Request.
 
-![HTTP HEAD](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-head.png "HTTP HEAD")
+![HTTP HEAD](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/http-head.png "HTTP HEAD")
 
 The VI provides multiple arguments for defining how to perform the HTTP request.
 
@@ -78,7 +78,7 @@ used for the HTTP request.
 #### HTTP GET
 Performs a HTTP GET Request.
 
-![HTTP GET](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-get.png "HTTP GET")
+![HTTP GET](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/http-get.png "HTTP GET")
 
 The VI provides multiple arguments for defining how to perform the HTTP request.
 
@@ -91,7 +91,7 @@ used for the HTTP request.
 #### HTTP POST
 Performs a HTTP POST Request.
 
-![HTTP POST](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-post.png "HTTP POST")
+![HTTP POST](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/http-post.png "HTTP POST")
 
 The VI provides multiple arguments for defining how to perform the HTTP request.
 
@@ -106,7 +106,7 @@ used for the HTTP request.
 #### HTTP PUT
 Performs a HTTP PUT Request.
 
-![HTTP PUT](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-put.png "HTTP PUT")
+![HTTP PUT](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/http-put.png "HTTP PUT")
 
 The VI provides multiple arguments for defining how to perform the HTTP request.
 
@@ -121,7 +121,7 @@ used for the HTTP request.
 #### HTTP DELETE
 Performs a HTTP DELETE Request.
 
-![HTTP DELETE](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-delete.png "HTTP DELETE")
+![HTTP DELETE](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/http-delete.png "HTTP DELETE")
 
 The VI provides multiple arguments for defining how to perform the HTTP request.
 
@@ -134,17 +134,17 @@ used for the HTTP request.
 #### Destroy REST Client
 Closes REST Client instance and closes up all open HTTP connections.
 
-![Destroy REST Client](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/destroy-rest-client.png "Destroy REST Client")
+![Destroy REST Client](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/destroy-rest-client.png "Destroy REST Client")
 
 
 ### Response Headers Palette
 
-![Response Headers palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette-response-headers.png "Response Headers palette")
+![Response Headers palette](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/rest-palette-response-headers.png "Response Headers palette")
 
 #### Get Header By Name
 Gets a response HTTP header value by name.
 
-![Get Header By Name](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/get-header-by-name.png "Get Header By Name")
+![Get Header By Name](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/get-header-by-name.png "Get Header By Name")
 
 The VI provides the following arguments.
 
@@ -153,7 +153,7 @@ The VI provides the following arguments.
 #### Get All Headers
 Gets all response HTTP headers.
 
-![Get All Headers](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/get-all-headers.png "Get All Headers")
+![Get All Headers](https://raw.githubusercontent.com/xlight/JKI-HTTP-REST-Client-LabVIEW/refs/heads/master/img/get-all-headers.png "Get All Headers")
 
 
 
